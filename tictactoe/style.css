@@ -1,0 +1,15 @@
+button {
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(82, 0, 0);
+    color: white;
+}
+
+.game-square {
+    padding: 30px;
+}
+
+#restart-button {
+    padding: 15px;
+}
