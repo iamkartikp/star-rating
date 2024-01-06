@@ -5,7 +5,7 @@ function getData(e) {
 const handleDebounce = function (fn, delay) {
     let id = null;
     return function () {
-        clearInterval(id);
+        clearTimeout(id);
         id = setTimeout(() => {
             fn.apply(this, arguments);
         }, delay);
