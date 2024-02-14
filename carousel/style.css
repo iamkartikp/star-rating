@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 20px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    outline: 1px solid white;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.active-circle {
+    background-color: white;
+}
+
+#indicator {
+    display: flex;
+    margin-left: 40%;
+}
